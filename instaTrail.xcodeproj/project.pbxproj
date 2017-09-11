@@ -7,15 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A062D9D13CBB39D22A92283C /* Pods_instaTrail.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 485E63ACB8541FAA1FF2E871 /* Pods_instaTrail.framework */; };
+		F812994C1F2E3762000E93C0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F812994B1F2E3762000E93C0 /* User.swift */; };
+		F812994E1F2E4008000E93C0 /* FollowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F812994D1F2E4008000E93C0 /* FollowViewController.swift */; };
+		F81299501F2E41DA000E93C0 /* UserTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F812994F1F2E41DA000E93C0 /* UserTableCell.swift */; };
+		F81299521F2E9677000E93C0 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81299511F2E9677000E93C0 /* Post.swift */; };
 		F82237D21F240AD300229399 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82237D11F240AD300229399 /* AppDelegate.swift */; };
 		F82237D41F240AD300229399 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82237D31F240AD300229399 /* ViewController.swift */; };
 		F82237D71F240AD300229399 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F82237D51F240AD300229399 /* Main.storyboard */; };
 		F82237DA1F240AD300229399 /* instaTrail.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F82237D81F240AD300229399 /* instaTrail.xcdatamodeld */; };
 		F82237DC1F240AD300229399 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F82237DB1F240AD300229399 /* Assets.xcassets */; };
 		F82237DF1F240AD300229399 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F82237DD1F240AD300229399 /* LaunchScreen.storyboard */; };
+		F82237E91F24223500229399 /* CellFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82237E81F24223500229399 /* CellFile.swift */; };
+		F82237EB1F24265C00229399 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82237EA1F24265C00229399 /* AddViewController.swift */; };
+		F83469BD1F26579000E9303C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F83469BC1F26579000E9303C /* GoogleService-Info.plist */; };
+		F83469BF1F265ACF00E9303C /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83469BE1F265ACF00E9303C /* SignInViewController.swift */; };
+		F83469C11F2671EC00E9303C /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83469C01F2671EC00E9303C /* SignUpViewController.swift */; };
+		F8455B321F284FFC004F7017 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8455B311F284FFC004F7017 /* PostViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		485E63ACB8541FAA1FF2E871 /* Pods_instaTrail.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_instaTrail.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC0EE18E3CD91BEC30C82B73 /* Pods-instaTrail.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instaTrail.release.xcconfig"; path = "Pods/Target Support Files/Pods-instaTrail/Pods-instaTrail.release.xcconfig"; sourceTree = "<group>"; };
+		F812994B1F2E3762000E93C0 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F812994D1F2E4008000E93C0 /* FollowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowViewController.swift; sourceTree = "<group>"; };
+		F812994F1F2E41DA000E93C0 /* UserTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTableCell.swift; sourceTree = "<group>"; };
+		F81299511F2E9677000E93C0 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		F82237CE1F240AD300229399 /* instaTrail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = instaTrail.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F82237D11F240AD300229399 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F82237D31F240AD300229399 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +41,13 @@
 		F82237DB1F240AD300229399 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F82237DE1F240AD300229399 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F82237E01F240AD300229399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F82237E81F24223500229399 /* CellFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellFile.swift; sourceTree = "<group>"; };
+		F82237EA1F24265C00229399 /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		F83469BC1F26579000E9303C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F83469BE1F265ACF00E9303C /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		F83469C01F2671EC00E9303C /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		F8455B311F284FFC004F7017 /* PostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		FAF51742FAEA2B9AD59A0AAA /* Pods-instaTrail.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instaTrail.debug.xcconfig"; path = "Pods/Target Support Files/Pods-instaTrail/Pods-instaTrail.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +55,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A062D9D13CBB39D22A92283C /* Pods_instaTrail.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3206553CAC9A4C30875D1425 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				485E63ACB8541FAA1FF2E871 /* Pods_instaTrail.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6BA483623B52F104CF0830B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FAF51742FAEA2B9AD59A0AAA /* Pods-instaTrail.debug.xcconfig */,
+				AC0EE18E3CD91BEC30C82B73 /* Pods-instaTrail.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F82237C51F240AD300229399 = {
 			isa = PBXGroup;
 			children = (
 				F82237D01F240AD300229399 /* instaTrail */,
 				F82237CF1F240AD300229399 /* Products */,
+				6BA483623B52F104CF0830B5 /* Pods */,
+				3206553CAC9A4C30875D1425 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,8 +102,18 @@
 			children = (
 				F82237D11F240AD300229399 /* AppDelegate.swift */,
 				F82237D31F240AD300229399 /* ViewController.swift */,
+				F81299511F2E9677000E93C0 /* Post.swift */,
+				F812994B1F2E3762000E93C0 /* User.swift */,
+				F82237E81F24223500229399 /* CellFile.swift */,
+				F83469BE1F265ACF00E9303C /* SignInViewController.swift */,
 				F82237D51F240AD300229399 /* Main.storyboard */,
+				F812994D1F2E4008000E93C0 /* FollowViewController.swift */,
+				F812994F1F2E41DA000E93C0 /* UserTableCell.swift */,
+				F8455B311F284FFC004F7017 /* PostViewController.swift */,
+				F83469C01F2671EC00E9303C /* SignUpViewController.swift */,
+				F82237EA1F24265C00229399 /* AddViewController.swift */,
 				F82237DB1F240AD300229399 /* Assets.xcassets */,
+				F83469BC1F26579000E9303C /* GoogleService-Info.plist */,
 				F82237DD1F240AD300229399 /* LaunchScreen.storyboard */,
 				F82237E01F240AD300229399 /* Info.plist */,
 				F82237D81F240AD300229399 /* instaTrail.xcdatamodeld */,
@@ -74,9 +128,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F82237E31F240AD300229399 /* Build configuration list for PBXNativeTarget "instaTrail" */;
 			buildPhases = (
+				EDCEB2472C39923ADF455C41 /* [CP] Check Pods Manifest.lock */,
 				F82237CA1F240AD300229399 /* Sources */,
 				F82237CB1F240AD300229399 /* Frameworks */,
 				F82237CC1F240AD300229399 /* Resources */,
+				EF318FC89344E3D0D8D30722 /* [CP] Embed Pods Frameworks */,
+				404F14512D50C5D98C8007D6 /* [CP] Copy Pods Resources */,
+				F84B202A1F2D3FD300289F8C /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -129,18 +187,89 @@
 				F82237DF1F240AD300229399 /* LaunchScreen.storyboard in Resources */,
 				F82237DC1F240AD300229399 /* Assets.xcassets in Resources */,
 				F82237D71F240AD300229399 /* Main.storyboard in Resources */,
+				F83469BD1F26579000E9303C /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		404F14512D50C5D98C8007D6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-instaTrail/Pods-instaTrail-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDCEB2472C39923ADF455C41 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EF318FC89344E3D0D8D30722 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-instaTrail/Pods-instaTrail-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F84B202A1F2D3FD300289F8C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 5fb385721e3cfe92ae6e511b044f29ba5e593e64 4f18cf9c567f8f65cbe5df49769527de120f7eeb88eb7688f7630e3749e2243f";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F82237CA1F240AD300229399 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F83469BF1F265ACF00E9303C /* SignInViewController.swift in Sources */,
+				F82237EB1F24265C00229399 /* AddViewController.swift in Sources */,
+				F8455B321F284FFC004F7017 /* PostViewController.swift in Sources */,
+				F81299521F2E9677000E93C0 /* Post.swift in Sources */,
 				F82237DA1F240AD300229399 /* instaTrail.xcdatamodeld in Sources */,
+				F81299501F2E41DA000E93C0 /* UserTableCell.swift in Sources */,
+				F812994C1F2E3762000E93C0 /* User.swift in Sources */,
+				F82237E91F24223500229399 /* CellFile.swift in Sources */,
+				F83469C11F2671EC00E9303C /* SignUpViewController.swift in Sources */,
 				F82237D41F240AD300229399 /* ViewController.swift in Sources */,
+				F812994E1F2E4008000E93C0 /* FollowViewController.swift in Sources */,
 				F82237D21F240AD300229399 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,8 +393,11 @@
 		};
 		F82237E41F240AD300229399 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAF51742FAEA2B9AD59A0AAA /* Pods-instaTrail.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = instaTrail/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pritesh.instaTrail;
@@ -276,8 +408,10 @@
 		};
 		F82237E51F240AD300229399 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC0EE18E3CD91BEC30C82B73 /* Pods-instaTrail.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = instaTrail/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pritesh.instaTrail;
@@ -305,6 +439,7 @@
 				F82237E51F240AD300229399 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
